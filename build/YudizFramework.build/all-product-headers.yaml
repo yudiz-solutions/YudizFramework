@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/yudiz/Library/Developer/Xcode/DerivedData/YudizFramework-craqlxsndvwyisgmgqkpdsjmvmlo/Build/Products/Debug-iphonesimulator/YudizFramework.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "YudizFramework-Swift.h",
+          'external-contents': "/Users/yudiz/Library/Developer/Xcode/DerivedData/YudizFramework-craqlxsndvwyisgmgqkpdsjmvmlo/Build/Products/Debug-iphonesimulator/YudizFramework.framework/Headers/YudizFramework-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "YudizFramework.h",
+          'external-contents': "/Users/yudiz/Desktop/YudizFramework/YudizFramework/YudizFramework.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yudiz/Library/Developer/Xcode/DerivedData/YudizFramework-craqlxsndvwyisgmgqkpdsjmvmlo/Build/Products/Debug-iphonesimulator/YudizFramework.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/yudiz/Desktop/YudizFramework/build/YudizFramework.build/Debug-iphonesimulator/YudizFramework.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

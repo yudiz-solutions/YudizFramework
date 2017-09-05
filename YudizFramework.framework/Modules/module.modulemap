@@ -1,0 +1,10 @@
+framework module YudizFramework {
+  umbrella header "YudizFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module YudizFramework.Swift {
+    header "YudizFramework-Swift.h"
+}
