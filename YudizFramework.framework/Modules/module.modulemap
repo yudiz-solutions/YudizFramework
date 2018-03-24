@@ -7,4 +7,5 @@ framework module YudizFramework {
 
 module YudizFramework.Swift {
     header "YudizFramework-Swift.h"
+    requires objc
 }

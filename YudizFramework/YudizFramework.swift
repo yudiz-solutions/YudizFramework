@@ -13,4 +13,9 @@ open class YudizFramework: NSObject {
     open class func logToConsole(_ msg: String) {
         print(msg);
     }
+    
+    fileprivate class func logToConsole1(_ msg: String) {
+        print(msg);
+    }
+    
 }

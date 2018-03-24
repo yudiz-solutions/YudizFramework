@@ -23,6 +23,7 @@
 /* Begin PBXBuildFile section */
 		034B9D141F5E7E49007F4F43 /* YudizFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 034B9D121F5E7E49007F4F43 /* YudizFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		034B9D1D1F5E8279007F4F43 /* YudizFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034B9D1C1F5E8279007F4F43 /* YudizFramework.swift */; };
+		03AA7A1B206618070093BE6E /* ios-framework-build.sh in Resources */ = {isa = PBXBuildFile; fileRef = 03AA7A1A206618070093BE6E /* ios-framework-build.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		034B9D121F5E7E49007F4F43 /* YudizFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YudizFramework.h; sourceTree = "<group>"; };
 		034B9D131F5E7E49007F4F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		034B9D1C1F5E8279007F4F43 /* YudizFramework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YudizFramework.swift; sourceTree = "<group>"; };
+		03AA7A1A206618070093BE6E /* ios-framework-build.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "ios-framework-build.sh"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		034B9D111F5E7E49007F4F43 /* YudizFramework */ = {
 			isa = PBXGroup;
 			children = (
+				03AA7A1A206618070093BE6E /* ios-framework-build.sh */,
 				034B9D121F5E7E49007F4F43 /* YudizFramework.h */,
 				034B9D1C1F5E8279007F4F43 /* YudizFramework.swift */,
 				034B9D131F5E7E49007F4F43 /* Info.plist */,
@@ -144,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03AA7A1B206618070093BE6E /* ios-framework-build.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +324,7 @@
 		034B9D201F5E8541007F4F43 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -327,6 +332,7 @@
 		034B9D211F5E8541007F4F43 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -350,6 +356,7 @@
 				034B9D191F5E7E49007F4F43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		034B9D1F1F5E8541007F4F43 /* Build configuration list for PBXAggregateTarget "UniversalYudizFramework" */ = {
 			isa = XCConfigurationList;
@@ -358,6 +365,7 @@
 				034B9D211F5E8541007F4F43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
